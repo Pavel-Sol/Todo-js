@@ -2,41 +2,48 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <title>ОБРАЗЕЦ</title>
+    <title>Todo-JS</title>
     <!-- viewport -->
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <!-- ШРИФТ -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
     />
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/media.css" />
   </head>
   <body>
-    <!-- ---------------jquery-3.4.1--------------->
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.js"
-      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-      crossorigin="anonymous"
-    ></script>
+    <div class="container">
+      <form class="todo-control">
+        <input class="form__input" type="text" placeholder="Ваша задача">
+        <button class="fotm__submit">Добавить</button>
+      </form>
+
+      <ul class="todo" id="todo">
+        <!-- <li class="todo__item">
+          <div class="todo__desc">
+            Lorem ipsum dolor 
+          </div>
+          <div class="todo__buttons">
+            <button class="todo__complete"></button>
+            <button class="todo__remove"></button>
+          </div>
+        </li> -->
+      </ul>
+      <ul class="todo todo-comleted" id="comleted">
+        <!-- <li class="todo__item">
+          <div class="todo__desc">
+            Lorem ipsum dolor 
+          </div>
+          <div class="todo__buttons">
+            <button class="todo__complete"></button>
+            <button class="todo__remove"></button>
+          </div>
+        </li> -->
+      </ul>
+    </div>
+
     <!-- --------------мой файл JS-------------------->
     <script src="js/script.js"></script>
-    <!--------------- fontawesome ---------------->
-    <script
-      src="https://kit.fontawesome.com/c5e7c95c4e.js"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>

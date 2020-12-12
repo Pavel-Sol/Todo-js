@@ -10,6 +10,7 @@
 *:after {
   box-sizing: border-box;
 }
+
 :focus,
 :active {
   outline: none;
@@ -58,4 +59,81 @@ ul li {
   margin: 0px;
   padding: 0px;
 }
+
 /* -------------------------- */
+.container {
+  max-width: 700px;
+  margin: 0px auto;
+  padding: 40px 15px;
+}
+
+.todo-control {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(92, 43, 226, .5);
+  margin-bottom: 50px;
+}
+
+.form__input {
+  padding: 15px;
+  background-color: rgb(111, 77, 206);
+  flex: 1 1 auto;
+  margin-right: 15px;
+}
+
+.fotm__submit {
+  padding: 15px 20px;
+}
+
+/* ---------------------- */
+
+.todo-comleted {
+  margin-top: 50px;
+}
+
+.todo__item {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f8efef;
+}
+
+.todo__desc {
+  min-height: 30px;
+  flex: 1 1 auto;
+  background-color: #ffffff;
+  padding: 15px 15px;
+}
+
+.todo__buttons {
+  display: flex;
+  align-items: center;
+}
+
+.todo__remove {
+  width: 30px;
+  height: 30px;
+  background: url(../imges/trash.png) no-repeat center top/cover;
+}
+
+.todo__complete {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000;
+  margin: 0px 10px 0px 10px;
+}
+
+.todo.todo-comleted .todo__complete {
+  width: 20px;
+  height: 20px;
+  border: 0;
+  background: url(../imges/complete.png) no-repeat center top/cover;
+}
+
+.todo.todo-comleted .todo__desc {
+  text-decoration: line-through
+}
