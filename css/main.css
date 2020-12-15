@@ -34,6 +34,7 @@ body {
   height: 100%;
   font-size: 14px;
   line-height: 1;
+  font-family: Montserrat;
 }
 
 input,
@@ -75,6 +76,7 @@ ul li {
   padding: 10px;
   background-color: rgba(92, 43, 226, .5);
   margin-bottom: 50px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
 }
 
 .form__input {
@@ -82,16 +84,23 @@ ul li {
   background-color: rgb(111, 77, 206);
   flex: 1 1 auto;
   margin-right: 15px;
+  color: #ffffff;
+}
+
+.form__input::placeholder {
+  color: rgba(255, 255, 255, .7);
 }
 
 .fotm__submit {
   padding: 15px 20px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 /* ---------------------- */
 
 .todo-comleted {
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .todo__item {
@@ -99,7 +108,7 @@ ul li {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: #f8efef;
+  background-color: #c2bcbc;
 }
 
 .todo__desc {
@@ -107,6 +116,7 @@ ul li {
   flex: 1 1 auto;
   background-color: #ffffff;
   padding: 15px 15px;
+  font-style: italic;
 }
 
 .todo__buttons {
@@ -136,4 +146,20 @@ ul li {
 
 .todo.todo-comleted .todo__desc {
   text-decoration: line-through
+}
+
+@media screen and (max-width: 400px) {
+  .todo-control {
+    flex-direction: column;
+  }
+
+  .form__input {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .fotm__submit {
+    width: 100%;
+    margin-top: 15px;
+  }
 }
