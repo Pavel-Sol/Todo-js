@@ -1,4 +1,4 @@
-[English](https://github.com/Pavel-Sol/Todo-js/blob/master/README.md) | [Russian](https://github.com/Pavel-Sol/Todo-js/blob/master/README-RU.md)
+[English](https://github.com/Pavel-Sol/Todo-js/blob/master/README.md) | [Russian](https://github.com/Pavel-Sol/Todo-js/blob/master/README-Ru.md)
 
 # Todo list with native JavaScript :ballot_box_with_check:
 
