@@ -2,7 +2,7 @@
 
 # Todo list with native JavaScript :ballot_box_with_check:
 
-[Github page ==> ](https://pavel-sol.github.io/Todo-js/) 
+[ ==>  Github page](https://pavel-sol.github.io/Todo-js/) 
 -----------------
 
 About the project

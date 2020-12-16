@@ -2,7 +2,7 @@
 
 # Todo list with native JavaScript :chart_with_upwards_trend:
 
-[Github page ==> ](https://pavel-sol.github.io/Todo-js/) 
+[  ==>  Github page](https://pavel-sol.github.io/Todo-js/) 
 -----------------
 
 О проекте
